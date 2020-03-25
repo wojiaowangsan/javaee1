@@ -6,6 +6,7 @@
     <servlet>
         <servlet-name>testServletName</servlet-name>
         <servlet-class>com.javaee.code.servlet.testServlet</servlet-class>
+
     </servlet>
     <servlet-mapping>
         <servlet-name>testServletName</servlet-name>

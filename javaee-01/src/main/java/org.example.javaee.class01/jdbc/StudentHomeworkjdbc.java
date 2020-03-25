@@ -1,5 +1,7 @@
 package com.javaee.code.jdbc;
 import com.javaee.code.model.*;
+import org.example.javaee.class01.jdbc.DatabasePool;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.sql.*;
@@ -25,7 +27,10 @@ public class StudentHomeworkjdbc {
         }
 
         List<student> list = new ArrayList<>();
-        try(Connection connection =  DriverManager.getConnection(url,"root","121429")) {
+        try(
+                Connection connection =   DatabasePool.getHikarDataSourse().getConnection()
+//                Connection connection =  DriverManager.getConnection(url,"root","123456")
+              ) {
             try(PreparedStatement ps = connection.prepareStatement(sqlString);){
 //                try(ResultSet resultSet = ps.executeQuery(sqlString)){
                 // 获取执行结果
