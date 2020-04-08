@@ -5,7 +5,7 @@
          version="4.0">
     <servlet>
         <servlet-name>testServletName</servlet-name>
-        <servlet-class>com.javaee.code.servlet.testServlet</servlet-class>
+        <servlet-class>org.example.javaee.class01.servlet.testServlet</servlet-class>
 
     </servlet>
     <servlet-mapping>
@@ -15,7 +15,7 @@
 
     <servlet>
         <servlet-name>testServletName1</servlet-name>
-        <servlet-class>com.javaee.code.servlet.testServletV2</servlet-class>
+        <servlet-class>org.example.javaee.class01.servlet.testServletV2</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>testServletName1</servlet-name>

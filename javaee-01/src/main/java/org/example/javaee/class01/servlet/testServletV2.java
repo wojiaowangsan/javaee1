@@ -1,4 +1,4 @@
-package com.javaee.code.servlet;
+package org.example.javaee.class01.servlet;
 
 import com.sun.deploy.net.HttpRequest;
 

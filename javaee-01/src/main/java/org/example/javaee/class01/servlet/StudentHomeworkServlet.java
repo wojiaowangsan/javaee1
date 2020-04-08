@@ -2,8 +2,8 @@ package org.example.javaee.class01.servlet;
 
 import java.util.List;
 
-import com.javaee.code.jdbc.StudentHomeworkjdbc;
-import com.javaee.code.model.StudentHomework;
+import org.example.javaee.class01.jdbc.StudentHomeworkjdbc;
+import org.example.javaee.class01.model.StudentHomework;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

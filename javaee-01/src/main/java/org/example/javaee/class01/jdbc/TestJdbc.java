@@ -1,4 +1,4 @@
-package com.javaee.code.jdbc;
+package org.example.javaee.class01.jdbc;
 
 import java.io.PrintWriter;
 import java.sql.DriverManager;

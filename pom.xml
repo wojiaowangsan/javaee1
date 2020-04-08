@@ -13,9 +13,15 @@
         <module>core</module>
         <module>javaee-01</module>
         <module>javaee-02</module>
+        <module>JavaEE-SpringMVC</module>
+        <module>JavaEE-SpringMVC</module>
+        <module>javaEE-SpringMVC</module>
+        <module>javaEE-SpringMVC</module>
+        <module>javaee-05</module>
+        <module>javaEE-SpringMVC02</module>
     </modules>
 
-    <dependencyManagement>
+   <dependencyManagement>
         <dependencies>
             <!-- 解决编译时，报程序包javax.servlet不存在的错误 -->
 

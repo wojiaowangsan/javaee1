@@ -1,6 +1,6 @@
-package com.javaee.code.jdbc;
-import com.javaee.code.model.*;
-import org.example.javaee.class01.jdbc.DatabasePool;
+package org.example.javaee.class01.jdbc;
+import org.example.javaee.class01.model.StudentHomework;
+import org.example.javaee.class01.model.student;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,8 +28,8 @@ public class StudentHomeworkjdbc {
 
         List<student> list = new ArrayList<>();
         try(
-                Connection connection =   DatabasePool.getHikarDataSourse().getConnection()
-//                Connection connection =  DriverManager.getConnection(url,"root","123456")
+//                Connection connection =   DatabasePool.getHikarDataSourse().getConnection();
+                Connection connection =  DriverManager.getConnection(url,"root","121429")
               ) {
             try(PreparedStatement ps = connection.prepareStatement(sqlString);){
 //                try(ResultSet resultSet = ps.executeQuery(sqlString)){

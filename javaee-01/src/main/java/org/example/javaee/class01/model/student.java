@@ -1,4 +1,4 @@
-package com.javaee.code.model;
+package org.example.javaee.class01.model;
 
 public class student {
     private Long studentId;

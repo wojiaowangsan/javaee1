@@ -1,8 +1,8 @@
-package com.javaee.code.jdbc;
+package org.example.javaee.class01.jdbc;
 
-import com.javaee.code.model.StudentHomework;
-import com.javaee.code.model.homework;
-import com.javaee.code.model.student;
+import org.example.javaee.class01.model.StudentHomework;
+import org.example.javaee.class01.model.homework;
+import org.example.javaee.class01.model.student;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

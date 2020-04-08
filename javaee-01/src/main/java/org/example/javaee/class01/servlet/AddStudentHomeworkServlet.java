@@ -1,8 +1,8 @@
 package org.example.javaee.class01.servlet;
 
 
-import com.javaee.code.jdbc.StudentHomeworkjdbc;
-import com.javaee.code.model.StudentHomework;
+import org.example.javaee.class01.jdbc.StudentHomeworkjdbc;
+import org.example.javaee.class01.model.StudentHomework;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -12,7 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.List;
 
 
 @WebServlet("/submitHomework")

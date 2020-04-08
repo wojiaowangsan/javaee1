@@ -1,6 +1,6 @@
 <%--<%@ page import="com.javaee.code.model.StudentHomework" %>--%>
-<%--<%@ page import="com.javaee.code.jdbc.Studentjdbc" %>--%>
-<%--<%@ page import="com.javaee.code.model.student" %>--%>
+<%--<%@ page import="Studentjdbc" %>--%>
+<%--<%@ page import="student" %>--%>
 <%@ page import="java.util.List" %><%--
   Created by IntelliJ IDEA.
   User: lenovo12345

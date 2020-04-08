@@ -1,4 +1,4 @@
-package com.javaee.code.servlet;
+package org.example.javaee.class01.servlet;
 
 import javax.servlet.*;
 import java.io.IOException;

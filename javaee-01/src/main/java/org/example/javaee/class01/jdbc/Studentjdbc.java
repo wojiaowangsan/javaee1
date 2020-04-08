@@ -1,6 +1,6 @@
-package com.javaee.code.jdbc;
+package org.example.javaee.class01.jdbc;
 
-import com.javaee.code.model.student;
+import org.example.javaee.class01.model.student;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -8,7 +8,7 @@ import java.util.List;
 
 public class Studentjdbc {
     public static void main(String[]args){
-        List<student > list =selectAll();
+        List<student> list =selectAll();
         for (student  s: list){
             System.out.println(s.getStudentId());
         }

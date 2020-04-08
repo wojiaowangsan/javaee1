@@ -1,9 +1,9 @@
+package org.example.javaee.class01.servlet;
 
-
-import com.javaee.code.jdbc.StudentHomeworkjdbc;
-import com.javaee.code.jdbc.Studentjdbc;
-import com.javaee.code.model.StudentHomework;
-import com.javaee.code.model.student;
+import org.example.javaee.class01.jdbc.StudentHomeworkjdbc;
+import org.example.javaee.class01.jdbc.Studentjdbc;
+import org.example.javaee.class01.model.StudentHomework;
+import org.example.javaee.class01.model.student;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

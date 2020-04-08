@@ -1,4 +1,4 @@
-package com.javaee.code.servlet;
+package org.example.javaee.class01.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
