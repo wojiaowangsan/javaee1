@@ -1,7 +1,9 @@
-package org.springmvc.class04. jdbc;
+package org.springmvc.class04.jdbc;
 
-import org.springmvc.class03.model.homework;
-import org.springmvc.class03.model.student;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springmvc.class04.model.homework;
+import org.springmvc.class04.model.student;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -9,11 +11,13 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-
+@Configuration
 public class Homeworkjdbc {
     public static void main(String[]args) {
         System.out.println("111");
     }
+    @Bean
+    public Homeworkjdbc getHomeworkjdbc(){return new Homeworkjdbc();}
     public static Boolean addHomework(homework h){
         String url ="jdbc:mysql://127.0.0.1:3306/school?serverTimezone=UTC";
 //        String allUrl=url+"?user=root&password=121429";

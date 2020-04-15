@@ -1,7 +1,7 @@
-package org.springmvc.class04. jdbc;
+package org.springmvc.class04.jdbc;
 
-import org.springmvc.class03.model.StudentHomework;
-import org.springmvc.class03.model.student;
+import org.springmvc.class04.model.StudentHomework;
+import org.springmvc.class04.model.student;
 
 import java.sql.*;
 import java.util.ArrayList;

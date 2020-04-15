@@ -34,7 +34,7 @@ public class AddStudentHomeworkServlet extends HttpServlet {
         sh.setId(Long.getLong(req.getParameter("Id")));
         StudentHomeworkjdbc.addStudentHomework(sh);
 
-        resp.sendRedirect(",main.jap");
+        resp.sendRedirect(",main.jsp");
 
     }
 }

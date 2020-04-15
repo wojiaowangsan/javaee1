@@ -1,6 +1,6 @@
-<%--<%@ page import="com.javaee.code.model.StudentHomework" %>--%>
-<%--<%@ page import="Studentjdbc" %>--%>
-<%--<%@ page import="student" %>--%>
+<%@ page import="org.example.javaee.class01.model.student" %>
+<%@ page import="org.example.javaee.class01.jdbc.Studentjdbc" %>
+<%@ page import="org.example.javaee.class01.model.StudentHomework" %>
 <%@ page import="java.util.List" %><%--
   Created by IntelliJ IDEA.
   User: lenovo12345
@@ -24,7 +24,7 @@
         <%
           List<student> list = Studentjdbc.selectAll();
           if(null == list || list.size() <= 0){
-              out.print("None data.");
+              System.out.print("None data.");
           }else {
               for (student  s : list){
       %>

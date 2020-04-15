@@ -12,10 +12,10 @@
         http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
 <!--    开启注解扫描-->
-    <context:component-scan base-package="org.springmvc.class03.controller"></context:component-scan>
+    <context:component-scan base-package="org.springmvc.class04.controller"></context:component-scan>
 <!--视图解析器-->
     <bean id="internalResourceViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-<!--        <property name="prefix" value="/WEB-INF/pages/"></property>-->
+        <property name="prefix" value="/WEB-INF/pages/"></property>
         <property name="suffix" value=".jsp"></property>
     </bean>
 <!--    开启springmvc注解支持-->
